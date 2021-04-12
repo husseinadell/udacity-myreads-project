@@ -1,7 +1,7 @@
 import React from "react";
 import SearchIcon from "./SearchIcon";
 import Shelf from "./Shelf";
-import { getAll, update } from "./BooksAPI";
+import { getAll, update } from "../BooksAPI";
 
 class Library extends React.Component {
   state = {
